@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Curriculum Vitae</title>
+    <title>Resume</title>
     <!-- Importation des polices Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
     <!-- Importation des icônes FontAwesome -->
@@ -250,7 +250,7 @@
         @media print {
             @page {
                 size: A4 portrait;
-                margin: 0 !important;
+                margin: 0 !important; /* Retire totalement les dates et URLs générées par le navigateur */
             }
 
             * {
@@ -279,7 +279,7 @@
                 border-radius: 120px 0 0 120px !important;
                 gap: 20px !important;
             }
-            .profile-pic { width: 130px !important; height: 130px !important; }
+            .profile-pic { width: 130px !important; height: 130px !important; } /* Image un peu plus petite */
             .header-content h1 { font-size: 1.8rem !important; margin-bottom: 2px !important; }
             .job-title { font-size: 0.95rem !important; margin-bottom: 6px !important; }
             .summary { font-size: 0.8rem !important; line-height: 1.3 !important; }
@@ -443,6 +443,17 @@
                     <div class="item-title">IT-PICTURES & FARIFLORE</div>
                     <div class="item-subtitle">Presentation websites (images & events) | HTML/CSS, JS</div>
                 </div>
+
+                <div class="item-block">
+                    <div class="item-title">RESUME WEBSITE</div>
+                    <div class="item-subtitle">Interactive resume presentation website | HTML, CSS, JavaScript</div>
+                </div>
+
+                <div class="item-block">
+                    <div class="item-title">MAQUIS MANAGER</div>
+                    <div class="item-subtitle">Maquis (restaurant/bar) management app & website | Python, Django, PostgreSQL, Bootstrap</div>
+                </div>
+
             </section>
 
         </div>
